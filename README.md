@@ -42,29 +42,29 @@ for programs; com for comments;)
 | \#SN/PR    | 9.52         | 9.42          | 8.57        | 9.33         | 8.2         | 5.81         | 7.77       | 8.82         |
 | \#lines/SN | 3.41         | 3.71          | 2.41        | 3.82         | 3.23        | 4            | 4.05       | 3.37         |
 | \#lines/PR | 32.45        | 34.93         | 20.66       | 35.64        | 26.47       | 23.23        | 31.5       | 29.71        |
-| total SN   | 106631       | 103896        | 92691       | 100190       | 81603       | 20648        | 4461       | -            |
-| total PR   | 11198        | 11028         | 10813       | 10735        | 9951        | 3553         | 574        | -            |
+| total SN   | 106,631      | 103,896       | 92,691      | 100,190      | 81,603      | 20,648       | 4,461      | -            |
+| total PR   | 11,198       | 11,028        | 10,813      | 10,735       | 9,951       | 3,553        | 574        | -            |
 
 
 Number of pairwise code-code data in training, validation and testing splits for each language-pair are presented in the following table. The upper triangle shows the number of parallel code snippets, and the lower triangle shows the number of parallel programs. This data is used for the Code Translation and XL Code Search tasks. (Py is short for Python. JS is short for Javascript.)
 |**Code-Code Pairs**|       | C++  | Java  | Python | C#    | JS    | PHP   | C    |
 |--------|-------|------|-------|--------|-------|-------|-------|------|
-| C++    | train |      | 89040 |  80100 | 85662 | 69507 | 17811 | 3386 |
-|        | val   |      |  4419 |   3913 |  4408 |  3808 |   923 |  352 |
-|        | test  |      |  8059 |   7228 |  7922 |  6965 |  1647 |  222 |
-| Java   | train | 9450 |       |  77759 | 87065 | 69341 | 17853 | 2996 |
-|        | val   |  490 |       |   3938 |  4437 |  3826 |   929 |  353 |
-|        | test  |  901 |       |   7259 |  8011 |  7005 |  1672 |  238 |
-| Python | train | 9139 |  8991 |        | 75843 | 67219 | 17616 | 2478 |
-|        | val   |  468 |   471 |        |  3922 |  3750 |   923 |  311 |
-|        | test  |  878 |   882 |        |  7215 |  6861 |  1655 |  203 |
-| C#     | train | 9187 |  9301 |   8826 |       | 68093 | 17873 | 2958 |
-|        | val   |  488 |   491 |    470 |       |  3826 |   928 |  352 |
-|        | test  |  890 |   898 |    877 |       |  6961 |  1668 |  238 |
-| JS     | train | 8482 |  8470 |   8182 |  8367 |       | 17117 | 1875 |
+| C++    | train |      |89,040 | 80,100 |85,662 |69,507 |17,811 |3,386 |
+|        | val   |      | 4,419 |  3,913 | 4,408 | 3,808 |   923 |  352 |
+|        | test  |      | 8,059 |  7,228 | 7,922 | 6,965 | 1,647 |  222 |
+| Java   | train |9,450 |       | 77,759 |87,065 |69,341 |17,853 |2,996 |
+|        | val   |  490 |       |  3,938 | 4,437 | 3,826 |   929 |  353 |
+|        | test  |  901 |       |  7,259 | 8,011 | 7,005 | 1,672 |  238 |
+| Python | train |9,139 | 8,991 |        |75,843 |67,219 |17,616 |2,478 |
+|        | val   |  468 |   471 |        | 3,922 | 3,750 |   923 |  311 |
+|        | test  |  878 |   882 |        | 7,215 | 6,861 | 1,655 |  203 |
+| C#     | train |9,187 | 9,301 |  8,826 |       |68,093 |17,873 |2,958 |
+|        | val   |  488 |   491 |    470 |       | 3,826 |   928 |  352 |
+|        | test  |  890 |   898 |    877 |       | 6,961 | 1,668 |  238 |
+| JS     | train |8,482 | 8,470 |  8,182 | 8,367 |       |17,117 |1,875 |
 |        | val   |  472 |   475 |    459 |   475 |       |   921 |  309 |
-|        | test  |  878 |   881 |    864 |   877 |       |  1617 |  200 |
-| PHP    | train | 3056 |  3068 |   3003 |  3071 |  2971 |       |  856 |
+|        | test  |  878 |   881 |    864 |   877 |       | 1,617 |  200 |
+| PHP    | train |3,056 |  3,68 |  3,003 | 3,071 | 2,971 |       |  856 |
 |        | val   |  157 |   158 |    153 |   158 |   157 |       |  271 |
 |        | test  |  303 |   307 |    304 |   307 |   302 |       |  183 |
 | C      | train |  402 |   409 |    380 |   394 |   308 |   170 |      |
@@ -75,12 +75,12 @@ Number of pairwise code-code data in training, validation and testing splits for
 Number of pairwise code-text data in each language are presented in the table below. "Snippet" means snippet-comment pairs, and "Program" means program-description (problem description) pairs. This data is used for Code Summarization (Code-to-Text), Code Synthesis (Text-to-Code) and NL Code Search tasks.
 | **NL-Code Pairs** |       | **C++** | **Java** | **Python** | **C#** | **JS** | **PHP** | **C** | **Total** |
 |:----------:|:-----:|:-------:|:--------:|:----------:|:------:|:------:|:-------:|:-----:|:---------:|
-| **Snippet**| train |  93847  |   91089  |    81207   |  87583 |  70649 |  18027  |  3763 |   446165  |
-|            | valid |   4432  |   4460   |    3946    |  4436  |  3829  |   930   |  350  |   22383   |
-|            |  test |   8118  |   8154   |    7293    |  8013  |  7033  |   1682  |  250  |   40543   |
-| **Program**| train |   9797  |   9623   |    9263    |  9345  |  8590  |   3087  |  463  |   50168   |
-|            | valid |   492   |    494   |     472    |   491  |   475  |   158   |   60  |    2642   |
-|            |  test |   909   |    911   |     887    |   899  |   886  |   308   |   51  |    4851   |
+| **Snippet**| train | 93,847     91,089  |   81,207   | 87,583 | 70,649 | 18,027  | 3,763 |   446,165  |
+|            | valid |  4,432  |  4,460   |   3,946    | 4,436  | 3,829  |   930   |  350  |   22,383   |
+|            |  test |  8,118  |  8,154   |   7,293    | 8,013  | 7,033  |  1,682  |  250  |   40,543   |
+| **Program**| train |  9,797  |  9,623   |   9,263    | 9,345  | 8,590  |  3,087  |  463  |   50,168   |
+|            | valid |   492   |    494   |     472    |   491  |   475  |   158   |   60  |    2,642   |
+|            |  test |   909   |    911   |     887    |   899  |   886  |   308   |   51  |    4,851   |
 
 
 With the release of this dataset hope to enable more research into the domain of Deep Learning for Software Engineering tasks. We believe that this dataset is a valuable asset for the research community and can potentially benefit a number of code-related research problems.
