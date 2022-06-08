@@ -33,17 +33,17 @@ We introduce the following 10 cross-lingual tasks. All the tasks have pairwise d
 Some basic averaged statistics of the dataset are presented below. "#" means number. #comments/program is the same as
 #snippets/program. (Py is short for Python; JS for Javascript; TOK for tokens; SN for snippets; PR
 for programs; com for comments;)
-|            |   C++        | Java          | Py          | C#           | JS          | PHP          | C          | Avg          |
-|------------|--------------|---------------|-------------|--------------|-------------|--------------|------------|--------------|
-| \#TOK/SN   | 21.52        | 24.1          | 21.63       | 23.06        | 22.52       | 28.14        | 25.37      | 22.83        |
-| \#TOK/PR   | 204.97       | 227.09        | 185.21      | 215.29       | 184.63      | 163.51       | 197.95     | 201.29       |
-| \#TOK/com  | 8.25         | 8.14          | 7.97        | 8.23         | 7.96        | 8.45         | 9.67       | 8.15         |
-| \#TOK/desc | 10.68        | 10.67         | 10.74       | 10.7         | 10.87       | 9.91         | 8.19       | 10.66        |
-| \#SN/PR    | 9.52         | 9.42          | 8.57        | 9.33         | 8.2         | 5.81         | 7.77       | 8.82         |
-| \#lines/SN | 3.41         | 3.71          | 2.41        | 3.82         | 3.23        | 4            | 4.05       | 3.37         |
-| \#lines/PR | 32.45        | 34.93         | 20.66       | 35.64        | 26.47       | 23.23        | 31.5       | 29.71        |
-| total SN   | 106,631      | 103,896       | 92,691      | 100,190      | 81,603      | 20,648       | 4,461      | -            |
-| total PR   | 11,198       | 11,028        | 10,813      | 10,735       | 9,951       | 3,553        | 574        | -            |
+|                       | **C++** | **Java** | **C#** | **Python** | **JS** | **PHP** | **C**  | **Avg** |
+|-----------------------|---------|----------|--------|------------|--------|---------|--------|---------|
+| **# tokens/snippet**  |   21.52 |     24.1 |  21.63 |      23.06 |  22.52 |   28.14 |  25.37 |   22.83 |
+| **# tokens/program**  |  204.97 |   227.09 | 188.54 |     215.29 | 184.63 |  163.51 | 197.95 |  201.96 |
+| **# tokens/comment**  |    8.25 |     8.14 |   7.97 |       8.23 |   7.96 |    8.45 |   9.67 |    8.15 |
+| **# tokens/desc**     |   10.68 |    10.67 |  10.75 |       10.7 |  10.87 |    9.91 |   8.19 |   10.66 |
+| **# snippet/program** |    9.52 |     9.42 |   8.51 |       9.33 |    8.2 |    5.81 |   7.77 |    8.81 |
+| **# lines/snippet**   |    3.41 |     3.71 |   2.41 |       3.82 |   3.23 |       4 |   4.05 |    3.37 |
+| **# lines/program**   |   32.45 |    34.93 |  20.54 |      35.64 |  26.47 |   23.23 |   31.5 |   29.71 |
+| **total snippets**    | 106,397 |  103,703 | 92,446 |    100,032 | 81,511 |  20,639 |  4,363 | -       |
+| **total programs**    |   11,198|   11,028 | 10,622 |     10,735 |  9,951 |   3,553 |    574 | -       |
 
 
 Number of pairwise code-code data in training, validation and testing splits for each language-pair are presented in the following table. The upper triangle shows the number of parallel code snippets, and the lower triangle shows the number of parallel programs. This data is used for the Code Translation and XL Code Search tasks. (Py is short for Python. JS is short for Javascript.)
