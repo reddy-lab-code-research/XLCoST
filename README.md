@@ -30,7 +30,7 @@ We introduce the following 10 cross-lingual tasks. All the tasks have pairwise d
 |                |                    | Program-to-Program Search | 106K/6K/11K  | Retrieve programs in other languages for given snippet      |                                   |
 
 ## Data Statistics
-Basic statistics of the dataset. "#" means number. #comments/program is the same as
+Some basic averaged statistics of the dataset are presented below. "#" means number. #comments/program is the same as
 #snippets/program. (Py is short for Python; JS for Javascript; TOK for tokens; SN for snippets; PR
 for programs; com for comments;)
 |            |   C++        | Java          | Py          | C#           | JS          | PHP          | C          | Avg          |
@@ -46,7 +46,7 @@ for programs; com for comments;)
 | total PR   | 11198        | 11028         | 10813       | 10735        | 9951        | 3553         | 574        | -            |
 
 
-Number of pairwise code-code data in training, validation and testing splits for each language-pair. The upper triangle shows the number of parallel code snippets, and the lower triangle shows the number of parallel programs. This data is used for the Code Translation and XL Code Search tasks. (Py is short for Python. JS is short for Javascript.)
+Number of pairwise code-code data in training, validation and testing splits for each language-pair are presented in the following table. The upper triangle shows the number of parallel code snippets, and the lower triangle shows the number of parallel programs. This data is used for the Code Translation and XL Code Search tasks. (Py is short for Python. JS is short for Javascript.)
 |**Code-Code Pairs**|       | C++  | Java  | Python | C#    | JS    | PHP   | C    |
 |--------|-------|------|-------|--------|-------|-------|-------|------|
 | C++    | train |      | 89040 |  80100 | 85662 | 69507 | 17811 | 3386 |
@@ -72,7 +72,7 @@ Number of pairwise code-code data in training, validation and testing splits for
 |        | test  |   45 |    49 |     48 |    49 |    49 |    43 |      |
 
 
-Number of pairwise code-text data in each language. "Snippet" means snippet-comment pairs, and "Program" means program-description (problem description) pairs. This data is used for Code Summarization (Code-to-Text), Code Synthesis (Text-to-Code) and NL Code Search tasks.
+Number of pairwise code-text data in each language are presented in the table below. "Snippet" means snippet-comment pairs, and "Program" means program-description (problem description) pairs. This data is used for Code Summarization (Code-to-Text), Code Synthesis (Text-to-Code) and NL Code Search tasks.
 | **NL-Code Pairs** |       | **C++** | **Java** | **Python** | **C#** | **JS** | **PHP** | **C** | **Total** |
 |:----------:|:-----:|:-------:|:--------:|:----------:|:------:|:------:|:-------:|:-----:|:---------:|
 | **Snippet**| train |  93847  |   91089  |    81207   |  87583 |  70649 |  18027  |  3763 |   446165  |
