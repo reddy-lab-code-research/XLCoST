@@ -1,10 +1,38 @@
-# XLCoST
+# XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence
 
 
+## Introduction
+Recent advances in machine learning have benefited a number of code related tasks, such as code translation, code summarization, and code synthesis. Open-source code repository websites like Github provide enormous amount of source code data, which enables the training of large-scale code language models such as CodeBERT (Feng et al., 2020), PLBART (Ahmad et al., 2021a), TransCoder (Roziere et al., 2020) and CodeT5 (Wang et al., 2021). Although the open-source code data is abundant in quantity, it has several disadvantages when serving as training data for code-related models. First, most of the available code data is unlabeled. For tasks like Code Translation, Code Summarization, and Code Synthesis, high quality parallel data is critical for model training. 
+
+
+We introduce XLCoST , a machine learning benchmark dataset that contains fine-grained parallel data in 7 commonly used programming languages (C++, Java, Python, C#, Javascript, PHP, C), and natural language (English). The data is parallel across 7 languages, at both code snippet level and program level. This means that given a program in one language, the dataset contains the same program in up to 6 other programming languages. Each program is divided into several code snippets, and programs in all the languages are aligned at the snippet level. Moreover, each of the snippets is accompanied with a comment, and the comment for a particular snippet is the same across all the languages.
+
+The figure below shows a schematic diagram of how the dataset is organised and the possible tasks that can be performed with it.
+<p align="center">
+  <img width="600" height="300" src="https://github.com/reddy-lab-code-research/XLCoST/blob/main/xlcost_schematic.png">
+</p>
+
+## Tasks
+
+We introduce the following 10 cross-lingual tasks. All the tasks have pairwise data at both snippet-level and program-level in 7 programming languages, C++, Java, Python, C\#, Javascript, PHP, and C. The tasks can be divided into two categories, generation and retrieval. The generation tasks include Code Translation, Code Summarization and Code Syntheis; the retrieval tasks include NL (natural language) Code Search and XL (Cross-Lingual) Code Search. All the tasks are in both snippet-level and program-level. We use 3 state-of-the-art baselines for the generation tasks and 2 for the retrieval tasks.
+
+| **Category**   |                    | **Task**                  | **Data**     | **Description**                                             | **Baselines**                     |
+|----------------|--------------------|---------------------------|--------------|-------------------------------------------------------------|-----------------------------------|
+| **Generation** | **Code-to-Code**   | Snippet Translation       | 872K/47K/83K | Translate code snippet across programming languages         | CodeBERT(enc-dec), PLBART, CodeT5 |
+|                |                    | Program Translation       | 106K/6K/11K  | Translate program across programming languages              |                                   |
+|                | **Code-to-Text**   | Snippet Summarization     | 446K/22K/41K | Generate comment for given code snippet                     |                                   |
+|                |                    | Program Summarization     | 50K/3K/5K    | Generate problem description for given program              |                                   |
+|                | **Text-to-Code**   | Snippet Synthesis         | 446K/22K/41K | Generate code snippet giving comment                        |                                   |
+|                |                    | Program Synthesis         | 50K/3K/5K    | Generate program giving problem description and comments    |                                   |
+| **Retrieval**  | **NL Code Search** | Comment-to-Snippet Search | 446K/22K/41K | Retrieve code snippet for given comment                     | RoBERTa, CodeBERT                 |
+|                |                    | Problem-to-Program Search | 50K/3K/5K    | Retrieve program for given problem description              |                                   |
+|                | **XL Code Search** | Snippet-to-Snippet Search | 872K/47K/83K | Retrieve code snippets in other languages for given snippet |                                   |
+|                |                    | Program-to-Program Search | 106K/6K/11K  | Retrieve programs in other languages for given snippet      |                                   |
+
+## Data Statistics
 Basic statistics of the dataset. "#" means number. #comments/program is the same as
 #snippets/program. (Py is short for Python; JS for Javascript; TOK for tokens; SN for snippets; PR
 for programs; com for comments;)
-
 |            |   C++        | Java          | Py          | C#           | JS          | PHP          | C          | Avg          |
 |------------|--------------|---------------|-------------|--------------|-------------|--------------|------------|--------------|
 | \#TOK/SN   | 21.52        | 24.1          | 21.63       | 23.06        | 22.52       | 28.14        | 25.37      | 22.83        |
@@ -18,7 +46,7 @@ for programs; com for comments;)
 | total PR   | 11198        | 11028         | 10813       | 10735        | 9951        | 3553         | 574        | -            |
 
 
-
+Number of pairwise code-code data in training, validation and testing splits for each language-pair. The upper triangle shows the number of parallel code snippets, and the lower triangle shows the number of parallel programs. This data is used for the Code Translation and XL Code Search tasks. (Py is short for Python. JS is short for Javascript.)
 |**Code-Code Pairs**|       | C++  | Java  | Python | C#    | JS    | PHP   | C    |
 |--------|-------|------|-------|--------|-------|-------|-------|------|
 | C++    | train |      | 89040 |  80100 | 85662 | 69507 | 17811 | 3386 |
@@ -44,6 +72,7 @@ for programs; com for comments;)
 |        | test  |   45 |    49 |     48 |    49 |    49 |    43 |      |
 
 
+Number of pairwise code-text data in each language. "Snippet" means snippet-comment pairs, and "Program" means program-description (problem description) pairs. This data is used for Code Summarization (Code-to-Text), Code Synthesis (Text-to-Code) and NL Code Search tasks.
 | **NL-Code Pairs** |       | **C++** | **Java** | **Python** | **C#** | **JS** | **PHP** | **C** | **Total** |
 |:----------:|:-----:|:-------:|:--------:|:----------:|:------:|:------:|:-------:|:-----:|:---------:|
 | **Snippet**| train |  93847  |   91089  |    81207   |  87583 |  70649 |  18027  |  3763 |   446165  |
@@ -54,6 +83,7 @@ for programs; com for comments;)
 |            |  test |   909   |    911   |     887    |   899  |   886  |   308   |   51  |    4851   |
 
 
+With the release of this dataset hope to enable more research into the domain of Deep Learning for Software Engineering tasks. We believe that this dataset is a valuable asset for the research community and can potentially benefit a number of code-related research problems.
 
 ### Code Translation
 
