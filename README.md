@@ -75,7 +75,7 @@ Number of pairwise code-code data in training, validation and testing splits for
 Number of pairwise code-text data in each language are presented in the table below. "Snippet" means snippet-comment pairs, and "Program" means program-description (problem description) pairs. This data is used for Code Summarization (Code-to-Text), Code Synthesis (Text-to-Code) and NL Code Search tasks.
 | **NL-Code Pairs** |       | **C++** | **Java** | **Python** | **C#** | **JS** | **PHP** | **C** | **Total** |
 |:----------:|:-----:|:-------:|:--------:|:----------:|:------:|:------:|:-------:|:-----:|:---------:|
-| **Snippet**| train | 93,847     91,089  |   81,207   | 87,583 | 70,649 | 18,027  | 3,763 |   446,165  |
+| **Snippet**| train | 93,847  |  91,089  |   81,207   | 87,583 | 70,649 | 18,027  | 3,763 |   446,165  |
 |            | valid |  4,432  |  4,460   |   3,946    | 4,436  | 3,829  |   930   |  350  |   22,383   |
 |            |  test |  8,118  |  8,154   |   7,293    | 8,013  | 7,033  |  1,682  |  250  |   40,543   |
 | **Program**| train |  9,797  |  9,623   |   9,263    | 9,345  | 8,590  |  3,087  |  463  |   50,168   |
