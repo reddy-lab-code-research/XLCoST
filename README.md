@@ -9,7 +9,7 @@ We introduce XLCoST , a machine learning benchmark dataset that contains fine-gr
 
 The figure below shows a schematic diagram of how the dataset is organised and the possible tasks that can be performed with it.
 <p align="center">
-  <img width="600" height="300" src="https://github.com/reddy-lab-code-research/XLCoST/blob/main/xlcost_schematic.png">
+  <img width="650" height="300" src="https://github.com/reddy-lab-code-research/XLCoST/blob/main/xlcost_schematic.png">
 </p>
 
 ## Tasks
