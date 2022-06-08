@@ -29,7 +29,11 @@ We introduce the following 10 cross-lingual tasks. All the tasks have pairwise d
 |                | **XL Code Search** | Snippet-to-Snippet Search | 872K/47K/83K | Retrieve code snippets in other languages for given snippet |                                   |
 |                |                    | Program-to-Program Search | 106K/6K/11K  | Retrieve programs in other languages for given snippet      |                                   |
 
-## Data Statistics
+## Data
+
+The data can be downloaded [here]().
+
+## Statistics
 Some basic averaged statistics of the dataset are presented below. "#" means number. #comments/program is the same as
 #snippets/program. (Py is short for Python; JS for Javascript; TOK for tokens; SN for snippets; PR
 for programs; com for comments;)
