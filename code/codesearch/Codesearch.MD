@@ -1,3 +1,7 @@
+First edit the <code>code/run_code_search.sh</code> file, change the <code>root_path</code> to your own directory.
+Then place the NL code search dataset at <code>root_path/nl2codesearch/dataset/</code>, and the XL code search dataset at <code>root_path/code2codesearch/dataset/</code>.
+
+
 To run the NL code search
 ```
 # train java desciption-to-program search on GPU 0 with codebert
