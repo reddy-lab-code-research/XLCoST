@@ -1,3 +1,8 @@
+
+First edit the <code>code/scripts/common_run_utils.sh</code> file, change the <code>ROOT_PATH</code> to your own directory.
+Then place the unzipped dataset at <code>ROOT_PATH/g4g/XLCoST_data/</code>.
+
+
 To run the code-to-code translation experiments:
 ```
 cd code/scripts
@@ -11,6 +16,7 @@ bash run_translation.sh 2 csharp cpp snippet codet5 train
 
 To run the code-to-text and text-to-code generation experiments:
 ```
+cd code/scripts
 # train java-description program summarization on GPU 0 with CodeBERT
 bash run_translation.sh 0 java desc program codebert train
 # train description-java program synthesis on GPU 2 with PLBART
