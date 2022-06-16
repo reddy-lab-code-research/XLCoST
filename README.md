@@ -89,11 +89,11 @@ Number of pairwise code-text data in each language are presented in the table be
 
 With the release of this dataset hope to enable more research into the domain of Deep Learning for Software Engineering tasks. We believe that this dataset is a valuable asset for the research community and can potentially benefit a number of code-related research problems.
 
-### Code Translation
+<!-- ### Code Translation
 
-#### Snippet Level
+<!-- #### Snippet Level -->
 
-| **CodeBLEU** | **Model**      | **C++**   | **Java**  | **Python** | **C#**    | **JS**    | **PHP**   | **C**     |
+<!-- | **CodeBLEU** | **Model**      | **C++**   | **Java**  | **Python** | **C#**    | **JS**    | **PHP**   | **C**     |
 |--------------|----------------|-----------|-----------|------------|-----------|-----------|-----------|-----------|
 | **C++**      | **Naive Copy** | -         |     64.56 |      34.79 |     63.19 |     53.16 |     42.56 |      84.2 |
 |              | **CodeBERT**   | -         |     84.94 |      74.55 |     84.99 |     82.79 |     68.56 |     45.46 |
@@ -123,9 +123,9 @@ With the release of this dataset hope to enable more research into the domain of
 |              | **CodeBERT**   |     45.84 |     39.69 |      13.55 |     39.71 |     29.85 |     38.88 | -         |
 |              | **PLBART**     |     82.53 |     72.35 |      49.16 |     75.78 |     75.05 |     60.86 | -         |
 |              | **CodeT5**     | **90.26** | **81.81** |  **63.81** | **83.05** | **79.73** | **66.32** | **-**     |
+ -->
 
-
-#### Program Level
+<!-- #### Program Level
 
 | **CodeBLEU** | **Model**      | **C++**   | **Java**  | **Python** | **C#**    | **JS**    | **PHP**   | **C**     |
 |--------------|----------------|-----------|-----------|------------|-----------|-----------|-----------|-----------|
@@ -157,7 +157,7 @@ With the release of this dataset hope to enable more research into the domain of
 |              | **CodeBERT**   |      21.7 |     21.27 |       21.1 |      19.5 |     15.64 |     31.71 | -         |
 |              | **PLBART**     |     78.42 |     13.45 |       5.53 |     45.15 |     31.47 |     25.17 | -         |
 |              | **CodeT5**     | **88.17** | **76.12** |  **56.32** |  **80.2** |  **76.5** | **64.28** | **-**     |
-
+ -->
 
 
 ### Code Synthesis
@@ -195,7 +195,7 @@ With the release of this dataset hope to enable more research into the domain of
 |                        | **PLBART**   |     7.65 |     6.35 |       4.86 | **9.23** |     6.78 |     6.03 |      4.14 |
 |                        | **CodeT5**   | **9.62** | **8.82** |   **6.32** |     7.75 | **8.23** | **10.5** | **12.84** |
 
-### Code Search
+<!-- ### Code Search
 
 #### Snippet Level
 | **MRR**            | **Model**    | **C++**   | **Java**  | **Python** | **C#**    | **JS**    | **PHP**   | **C**     |
@@ -203,12 +203,13 @@ With the release of this dataset hope to enable more research into the domain of
 | **NL Code Search** | **RoBERTa**  |     25.77 |     25.85 |      27.08 |     25.64 |     26.78 |     33.47 |     36.14 |
 |                    | **CodeBERT** | **29.77** | **29.41** |  **30.94** | **29.08** |  **31.2** | **38.75** | **41.56** |
 | **XL Code Search** | **RoBERTa**  |     41.73 |     41.25 |      36.16 |     41.18 |     43.17 | **41.17** |      37.1 |
-|                    | **CodeBERT** | **42.11** | **41.71** |  **36.98** | **41.52** | **43.41** |     41.09 | **37.87** |
+|                    | **CodeBERT** | **42.11** | **41.71** |  **36.98** | **41.52** | **43.41** |     41.09 | **37.87** | -->
 
-#### Program Level
+<!-- #### Program Level
 | **MRR**            | **Model**    | **C++**   | **Java**  | **Python** | **C#**    | **JS**    | **PHP**   | **C**     |
 |--------------------|--------------|-----------|-----------|------------|-----------|-----------|-----------|-----------|
 | **NL Code Search** | **RoBERTa**  |     51.47 |      50.4 |      48.98 |     52.24 |     50.05 |     62.01 | **56.34** |
 |                    | **CodeBERT** | **59.13** | **56.07** |  **57.97** | **56.65** | **54.37** | **65.13** |     47.13 |
 | **XL Code Search** | **RoBERTa**  |     48.28 |     47.66 |      46.11 |      46.4 |      47.6 |     43.76 |     40.15 |
 |                    | **CodeBERT** | **48.71** | **48.33** |  **47.24** | **47.96** | **47.66** | **44.02** | **40.43** |
+ -->
