@@ -18,7 +18,7 @@ We introduce the following 10 cross-lingual tasks. All the tasks have pairwise d
 
 | **Category**   |                    | **Task**                  | **Data**     | **Description**                                             | **Baselines**                     |
 |----------------|--------------------|---------------------------|--------------|-------------------------------------------------------------|-----------------------------------|
-| **Generation** | **Code-to-Code**   | Snippet Translation       | 872K/47K/83K | Translate code snippet across programming languages         | CodeBERT(enc-dec), PLBART, CodeT5 |
+| **Generation** | [**Code-to-Code**](https://github.com/reddy-lab-code-research/XLCoST/tree/main/code/translation)   | Snippet Translation       | 872K/47K/83K | Translate code snippet across programming languages         | CodeBERT(enc-dec), PLBART, CodeT5 |
 |                |                    | Program Translation       | 106K/6K/11K  | Translate program across programming languages              |                                   |
 |                | **Code-to-Text**   | Snippet Summarization     | 446K/22K/41K | Generate comment for given code snippet                     |                                   |
 |                |                    | Program Summarization     | 50K/3K/5K    | Generate problem description for given program              |                                   |
