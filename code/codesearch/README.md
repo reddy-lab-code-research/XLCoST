@@ -1,3 +1,5 @@
+## Code Search
+
 First edit the <code>code/run_code_search.sh</code> file, change the <code>root_path</code> to your own directory.
 Then place the NL code search dataset at <code>root_path/nl2codesearch/dataset/</code>, and the XL code search dataset at <code>root_path/code2codesearch/dataset/</code>.
 
@@ -20,7 +22,7 @@ bash run_code_search.sh 2 python code2code program codet5 train
 
 ## Results
 
-### Code Search
+
 
 #### Snippet Level
 | **MRR**            | **Model**    | **C++**   | **Java**  | **Python** | **C#**    | **JS**    | **PHP**   | **C**     |
