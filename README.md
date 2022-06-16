@@ -24,9 +24,9 @@ We introduce the following 10 cross-lingual tasks. All the tasks have pairwise d
 |                |                    | Program Summarization     | 50K/3K/5K    | Generate problem description for given program              |                                   |
 |                | **Text-to-Code**   | Snippet Synthesis         | 446K/22K/41K | Generate code snippet giving comment                        |                                   |
 |                |                    | Program Synthesis         | 50K/3K/5K    | Generate program giving problem description and comments    |                                   |
-| **Retrieval**  | **NL Code Search** | Comment-to-Snippet Search | 446K/22K/41K | Retrieve code snippet for given comment                     | RoBERTa, CodeBERT                 |
+| **Retrieval**  | [**NL Code Search**](https://github.com/reddy-lab-code-research/XLCoST/tree/main/code/codesearch) | Comment-to-Snippet Search | 446K/22K/41K | Retrieve code snippet for given comment                     | RoBERTa, CodeBERT                 |
 |                |                    | Problem-to-Program Search | 50K/3K/5K    | Retrieve program for given problem description              |                                   |
-|                | **XL Code Search** | Snippet-to-Snippet Search | 872K/47K/83K | Retrieve code snippets in other languages for given snippet |                                   |
+|                | [**XL Code Search**](https://github.com/reddy-lab-code-research/XLCoST/tree/main/code/codesearch) | Snippet-to-Snippet Search | 872K/47K/83K | Retrieve code snippets in other languages for given snippet |                                   |
 |                |                    | Program-to-Program Search | 106K/6K/11K  | Retrieve programs in other languages for given snippet      |                                   |
 
 ## Data
