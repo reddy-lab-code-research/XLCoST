@@ -1,4 +1,4 @@
-## Code Translation
+## Code Translation, Summarization & Synthesis
 
 First edit the <code>code/scripts/common_run_utils.sh</code> file, change the <code>ROOT_PATH</code> to your own directory.
 Then place the unzipped dataset at <code>ROOT_PATH/g4g/XLCoST_data/</code>.
@@ -29,7 +29,7 @@ bash run_translation.sh 2 comment python snippet codet5 train
 
 ```
 
-## Results
+## Translation Results
 
 #### Snippet Level
 
