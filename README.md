@@ -29,7 +29,11 @@ We introduce the following 10 cross-lingual tasks. All the tasks have pairwise d
 |                | [**XL Code Search**](https://github.com/reddy-lab-code-research/XLCoST/tree/main/code/codesearch) | Snippet-to-Snippet Search | 872K/47K/83K | Retrieve code snippets in other languages for given snippet |                                   |
 |                |                    | Program-to-Program Search | 106K/6K/11K  | Retrieve programs in other languages for given snippet      |                                   |
 
+## How to use this repository
+
 #### Instructions to run the codesearch task can be found [here.](https://github.com/reddy-lab-code-research/XLCoST/tree/main/code/codesearch#code-search)
+
+#### Instructions to run the generation tasks can be found [here.](https://github.com/reddy-lab-code-research/XLCoST/blob/main/code/translation/README.md#code-translation-summarization--synthesis)
 
 ## Data
 
