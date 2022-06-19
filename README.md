@@ -42,6 +42,18 @@ We introduce the following 10 cross-lingual tasks. All the tasks have pairwise d
 The data can be downloaded [here](https://drive.google.com/file/d/10GaFasuLllexWbiH_oCgWKWXv_fFSkUY/view?usp=sharing).
 
 ## Data Description (Metadata)
+
+```
+project
+│   
+└───folder1
+|
+|___folder3
+│   
+└───folder2
+
+```
+
 ## Statistics
 Some basic averaged statistics of the dataset are presented below. "#" means number. #comments/program is the same as
 #snippets/program. (Py is short for Python; JS for Javascript; TOK for tokens; SN for snippets; PR
