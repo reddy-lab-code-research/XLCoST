@@ -28,10 +28,10 @@ evaluator_path=${exp_path}evaluator/
 
 run;
 
-# exp=nl2code
-# exp_path=${nl2codesearch_path}
-# data_path=${exp_path}dataset/
-# evaluator_path=${exp_path}evaluator/
-# run;
+exp=nl2code
+exp_path=${nl2codesearch_path}
+data_path=${exp_path}dataset/
+evaluator_path=${exp_path}evaluator/
+run;
 
 
