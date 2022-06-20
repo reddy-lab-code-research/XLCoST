@@ -11,3 +11,6 @@ XLCoST_data
 ├── pair_data_tok_full_desc
 └── pair_data_tok_full_desc_comment
 ```
+
+
+#### Details about Code Search data files can be found [here](https://github.com/reddy-lab-code-research/XLCoST/tree/main/metadata/codesearch#code-search)
