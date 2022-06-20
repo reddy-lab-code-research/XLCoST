@@ -57,12 +57,6 @@ XLCoST_data
 └── pair_data_tok_full_desc_comment
 ``` -->
 
-#### Code Translation
-
-#### Code Synthesis
-
-#### Code Summarisation
-
 ## Statistics
 Some basic averaged statistics of the dataset are presented below. "#" means number. #comments/program is the same as
 #snippets/program. (Py is short for Python; JS for Javascript; TOK for tokens; SN for snippets; PR
