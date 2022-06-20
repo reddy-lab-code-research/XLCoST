@@ -90,7 +90,7 @@ nl2code_search
         └── val.jsonl
 ```
 
-```
+```json
 {
     "docstring_tokens": ["list of query problem description tokens"]
     "code_tokens": ["list of target language code tokens"],
@@ -99,7 +99,7 @@ nl2code_search
 }
 ```
 
-```
+```json
 {
     "docstring_tokens": ["list of query comment tokens"]
     "code_tokens": ["list of target language code snippet tokens"],
