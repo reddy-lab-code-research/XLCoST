@@ -43,7 +43,7 @@ The data can be downloaded [here](https://drive.google.com/file/d/10GaFasuLllexW
 
 ## Data Description (Metadata)
 
-Details about the data files and metadata can be found [here](https://github.com/reddy-lab-code-research/XLCoST/tree/main/metadata#data-description-metadata)
+Details about the data files and metadata can be found [here](https://github.com/reddy-lab-code-research/XLCoST/tree/main/metadata#data-description-metadata).
 <!-- Described below is the directory structure of the data obtained by unzipping the zip file that is downloaded in the previous step. We have 7 different directories within the parent directory corresponding to various tasks.
 
 ```
