@@ -31,13 +31,13 @@ We introduce the following 10 cross-lingual tasks. All the tasks have pairwise d
 
 ## How to use this repository
 
-Use the ```requirements.txt``` file to setup ypur environment.
+Use the ```requirements.txt``` file to setup your environment.
 
 Code for this repository has been adapted from [CodeXGLUE](https://github.com/microsoft/CodeXGLUE) and [PLBART](https://github.com/wasiahmad/PLBART).
 
 #### Instructions to run the generation tasks can be found [here.](https://github.com/reddy-lab-code-research/XLCoST/blob/main/code/translation/README.md#code-translation-summarization--synthesis)
 
-#### Instructions to run the codesearch task can be found [here.](https://github.com/reddy-lab-code-research/XLCoST/tree/main/code/codesearch#code-search)
+#### Instructions to run the code search tasks can be found [here.](https://github.com/reddy-lab-code-research/XLCoST/tree/main/code/codesearch#code-search)
 
 
 
