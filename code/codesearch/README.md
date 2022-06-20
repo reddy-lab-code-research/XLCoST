@@ -16,8 +16,8 @@ To run the XL code search
 ```
 # train java program-to-program search on GPU 0 with codebert
 bash run_code_search.sh 0 java code2code program codebert train
-# train python program-to-program search on GPU 2 with CodeT5
-bash run_code_search.sh 2 python code2code program codet5 train
+# train python snippet-to-snippet search on GPU 2 with CodeT5
+bash run_code_search.sh 2 python code2code snippet codet5 train
 ```
 
 To evaluate the NL code search and XL code search results
