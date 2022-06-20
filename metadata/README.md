@@ -3,13 +3,13 @@ This section describes the directory structure of the data obtained after downlo
 
 ```
 XLCoST_data
-├── code2code_search
-├── nl2code_search
-├── pair_data_tok_1
-├── pair_data_tok_1_comment
-├── pair_data_tok_full
-├── pair_data_tok_full_desc
-└── pair_data_tok_full_desc_comment
+├── code2code_search (3.05 GB)
+├── nl2code_search (780.2 MB)
+├── pair_data_tok_1 (180.5 MB)
+├── pair_data_tok_1_comment (73.6 MB)
+├── pair_data_tok_full (158.6 MB)
+├── pair_data_tok_full_desc (42.8 MB)
+└── pair_data_tok_full_desc_comment (65.4 MB)
 ```
 
 
