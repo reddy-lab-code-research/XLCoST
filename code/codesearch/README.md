@@ -20,6 +20,11 @@ bash run_code_search.sh 0 java code2code program codebert train
 bash run_code_search.sh 2 python code2code program codet5 train
 ```
 
+To evaluate the NL code search and XL code search results
+```
+bash eval_code_search.sh
+```
+
 ## Results
 
 
