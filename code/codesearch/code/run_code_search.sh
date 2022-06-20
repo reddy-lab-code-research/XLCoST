@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-root_path=/home/mingzhu/CodeModel/CodeXGLUE/Text-Code/NL-code-search-Adv/
+root_path=../
 code2codesearch_path=${root_path}code2codesearch/
 nl2codesearch_path=${root_path}nl2codesearch/
 
