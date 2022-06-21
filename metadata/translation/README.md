@@ -76,6 +76,7 @@ result ++ ; } } cout << result << endl ; }
 10113-C++-5
 10113-C++-6
 ```
+`train-C++-C-tok.c` file:
 ```c
 #include <stdio.h>
 void count_setbit ( int N ) {
@@ -83,4 +84,12 @@ int result = 0 ;
 for ( int i = 0 ; i < 32 ; i ++ ) {
 if ( ( 1 << i ) & N ) {
 result ++ ; } } printf ( " % d STRNEWLINE " , result ) ; }
+```
+```train-C-map.jsonl```
+```json
+10113-C-1
+10113-C-2
+10113-C-3
+10113-C-4
+10113-C-5
 ```
