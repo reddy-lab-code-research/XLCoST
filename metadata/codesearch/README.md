@@ -94,6 +94,8 @@ nl2code_search
         └── val.jsonl
 ```
 
+Example format of the ```.jsonl``` files for ```program_level``` ```NL Code Search``` data is shown below. The ```idx``` key denotes the ```problem_id``` and ```url``` denotes a compbination of ```{problem_id}-{target_lang}```. ```docstring_tokens``` maps to the list of problem description tokens that will be used as the query. ```code_tokens``` maps to the list of code tokens for the target language. 
+
 ```json
 {
     "docstring_tokens": ["list of query problem description tokens"]
