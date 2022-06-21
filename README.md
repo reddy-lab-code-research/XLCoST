@@ -230,11 +230,21 @@ With the release of this dataset hope to enable more research into the domain of
  If you use this dataset in your work, please consider citing us. The arXiv version of the paper can be found [here](https://arxiv.org/pdf/2206.08474.pdf).
  
  ```
- @misc{zhu2022xlcost,
+<!--  @misc{zhu2022xlcost,
       title={XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence},
       author={Ming Zhu and Aneesh Jain and Karthik Suresh and Roshan Ravindran and Sindhu Tipirneni and Chandan K. Reddy},
       year={2022},
       eprint={2206.08474},
       archivePrefix={arXiv}
+} -->
+
+@misc{zhu2022xlcost,
+      title = {XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence},
+      url = {https://arxiv.org/abs/2206.08474},
+      author = {Zhu, Ming and Jain, Aneesh and Suresh, Karthik and Ravindran, Roshan and Tipirneni, Sindhu and Reddy, Chandan K.},
+      year = {2022},
+      eprint={2206.08474},
+      archivePrefix={arXiv}
+      copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
 }
 ```
