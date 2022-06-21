@@ -44,6 +44,7 @@ nl2code_search
     ├── PHP
     └── Python
 ```
+### XL Code Search
 Shown below is the data structure for one language for the XL Code Search task. It is the same for all other languages.
 ```
 code2code_search
@@ -79,6 +80,7 @@ The ```idx``` key denotes ```{query_pid}-{query_lang}-{snippet_id}/{target_pid}-
     "url": "9359-C-1/9359-Python-1"
 }
 ```
+### NL Code Search
 Shown below is the data structure for one language for the NL Code Search task. It is the same for all other languages.
 ```
 nl2code_search
@@ -94,7 +96,7 @@ nl2code_search
         └── val.jsonl
 ```
 
-Example format of the ```.jsonl``` files for ```program_level``` ```NL Code Search``` data is shown below. The ```idx``` key denotes the ```problem_id``` and ```url``` denotes a compbination of ```{problem_id}-{target_lang}```. ```docstring_tokens``` maps to the list of problem description tokens that will be used as the query. ```code_tokens``` maps to the list of code tokens for the target language. 
+Example format of the ```.jsonl``` files for ```program_level``` ```NL Code Search``` data is shown below. The ```idx``` key denotes the ```problem_id``` and ```url``` denotes a combination of ```{problem_id}-{target_lang}```. ```docstring_tokens``` maps to the list of problem description tokens that will be used as the query. ```code_tokens``` maps to the list of code tokens for the target language. 
 
 ```json
 {
@@ -105,6 +107,8 @@ Example format of the ```.jsonl``` files for ```program_level``` ```NL Code Sear
 }
 ```
 
+The ```.jsonl``` files for ```snippet_level``` ```NL Code Search``` data have the following format. The ```idx``` key denotes the ```problem_id``` concatenated with ```snippet_id```. ```url``` denotes a combination of ```{problem_id}-{target_lang}-{snippet_id}```. ```docstring_tokens``` maps to the list of snippet comment tokens that will be used as the query. ```code_tokens``` maps to the list of code tokens for the target language. 
+
 ```json
 {
     "docstring_tokens": ["list of query comment tokens"]
@@ -113,5 +117,3 @@ Example format of the ```.jsonl``` files for ```program_level``` ```NL Code Sear
     "idx": 93591
 }
 ```
-
-
