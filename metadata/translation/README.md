@@ -67,8 +67,8 @@ for ( int i = 0 ; i < 32 ; i ++ ) {
 if ( ( 1 << i ) & N ) {
 result ++ ; } } cout << result << endl ; }
 ```
-```train-C++-map.jsonl```
-```
+```train-C++-map.jsonl``` file:
+```c
 10113-C++-1
 10113-C++-2
 10113-C++-3
@@ -85,8 +85,9 @@ for ( int i = 0 ; i < 32 ; i ++ ) {
 if ( ( 1 << i ) & N ) {
 result ++ ; } } printf ( " % d STRNEWLINE " , result ) ; }
 ```
-```train-C-map.jsonl```
-```json
+
+```train-C-map.jsonl``` file:
+```c
 10113-C-1
 10113-C-2
 10113-C-3
