@@ -5,7 +5,7 @@
 Recent advances in machine learning have benefited a number of code related tasks, such as code translation, code summarization, and code synthesis. Open-source code repository websites like Github provide enormous amount of source code data, which enables the training of large-scale code language models such as CodeBERT (Feng et al., 2020), PLBART (Ahmad et al., 2021a), TransCoder (Roziere et al., 2020) and CodeT5 (Wang et al., 2021). Although the open-source code data is abundant in quantity, it has several disadvantages when serving as training data for code-related models. First, most of the available code data is unlabeled. For tasks like Code Translation, Code Summarization, and Code Synthesis, high quality parallel data is critical for model training. 
 
 
-We introduce XLCoST , a machine learning benchmark dataset that contains fine-grained parallel data in 7 commonly used programming languages (C++, Java, Python, C#, Javascript, PHP, C), and natural language (English). The data is parallel across 7 languages, at both code snippet level and program level. This means that given a program in one language, the dataset contains the same program in up to 6 other programming languages. Each program is divided into several code snippets, and programs in all the languages are aligned at the snippet level. Moreover, each of the snippets is accompanied with a comment, and the comment for a particular snippet is the same across all the languages.
+We introduce XLCoST , a machine learning benchmark dataset that contains fine-grained parallel data in 7 commonly used programming languages (C++, Java, Python, C#, Javascript, PHP, C), and natural language (English). The data is parallel across 7 languages, at both code snippet level and program level. This means that given a program in one language, the dataset contains the same program in up to 6 other programming languages. Each program is divided into several code snippets, and programs in all the languages are aligned at the snippet level. Moreover, each of the snippets is accompanied with a comment, and the comment for a particular snippet is the same across all the languages. PLease find the paper [here](https://arxiv.org/pdf/2206.08474.pdf).
 
 The figure below shows a schematic diagram of how the dataset is organised and the possible tasks that can be performed with it.
 <p align="center">
@@ -224,3 +224,17 @@ With the release of this dataset hope to enable more research into the domain of
 | **XL Code Search** | **RoBERTa**  |     48.28 |     47.66 |      46.11 |      46.4 |      47.6 |     43.76 |     40.15 |
 |                    | **CodeBERT** | **48.71** | **48.33** |  **47.24** | **47.96** | **47.66** | **44.02** | **40.43** |
  -->
+ 
+ ## Citation
+ 
+ If you use this dataset in your work, please consider citing us. The arXiv version of the paper can be found [here](https://arxiv.org/pdf/2206.08474.pdf).
+ 
+ ```
+ @misc{zhu2022xlcost,
+      title={XLCoST: A Benchmark Dataset for Cross-lingual Code Intelligence},
+      author={Ming Zhu and Aneesh Jain and Karthik Suresh and Roshan Ravindran and Sindhu Tipirneni and Chandan K. Reddy},
+      year={2022},
+      eprint={2206.08474},
+      archivePrefix={arXiv}
+}
+```
