@@ -96,7 +96,7 @@ nl2code_search
         └── val.jsonl
 ```
 
-Example format of the ```.jsonl``` files for ```program_level``` ```NL Code Search``` data is shown below. The ```idx``` key denotes the ```problem_id``` and ```url``` denotes a combination of ```{problem_id}-{target_lang}```. ```docstring_tokens``` maps to the list of problem description tokens that will be used as the query. ```code_tokens``` maps to the list of code tokens for the target language. 
+Example format of the ```.jsonl``` files for ```program_level``` NL Code Search data is shown below. The ```idx``` key denotes the ```problem_id``` and ```url``` denotes a combination of ```{problem_id}-{target_lang}```. ```docstring_tokens``` maps to the list of problem description tokens that will be used as the query. ```code_tokens``` maps to the list of code tokens for the target language program. There are other key-value pairs in the data, however these are the only ones that are used for NL Code Search
 
 ```json
 {
@@ -107,7 +107,7 @@ Example format of the ```.jsonl``` files for ```program_level``` ```NL Code Sear
 }
 ```
 
-The ```.jsonl``` files for ```snippet_level``` ```NL Code Search``` data have the following format. The ```idx``` key denotes the ```problem_id``` concatenated with ```snippet_id```. ```url``` denotes a combination of ```{problem_id}-{target_lang}-{snippet_id}```. ```docstring_tokens``` maps to the list of snippet comment tokens that will be used as the query. ```code_tokens``` maps to the list of code tokens for the target language. 
+The ```.jsonl``` files for ```snippet_level``` NL Code Search data have the following format. The ```idx``` key denotes the ```problem_id``` concatenated with ```snippet_id```. ```url``` denotes a combination of ```{problem_id}-{target_lang}-{snippet_id}```. ```docstring_tokens``` maps to the list of snippet comment tokens that will be used as the query. ```code_tokens``` maps to the list of code tokens for the target language snippet. 
 
 ```json
 {
