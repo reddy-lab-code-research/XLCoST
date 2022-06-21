@@ -1,4 +1,4 @@
-## Translation
+## Code Translation
 
 The file tree below describes the structure of the translation data. It is divided into two directories, ```pair_data_tok_1``` for snippet level translation and ```pair_data_tok_full``` for program level translation. Each sub task contains 21 directories for each possible language pair. The same pairs can be used with the ```src``` and ```trg``` languages switched to perform the experiments for the opposing pairs.
 
