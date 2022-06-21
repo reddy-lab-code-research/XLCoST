@@ -245,6 +245,5 @@ With the release of this dataset hope to enable more research into the domain of
       year = {2022},
       eprint={2206.08474},
       archivePrefix={arXiv}
-      copyright = {Creative Commons Attribution Non Commercial Share Alike 4.0 International}
 }
 ```
