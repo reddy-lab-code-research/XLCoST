@@ -55,7 +55,7 @@ pair_data_tok_1
     ├── val-C++-map.jsonl
     └── val-C-map.jsonl
 ```
-
+### Small Examples
 ```cpp
 #include <bits/stdc++.h> NEW_LINE using namespace std ;
 void count_setbit ( int N ) {
@@ -63,4 +63,13 @@ int result = 0 ;
 for ( int i = 0 ; i < 32 ; i ++ ) {
 if ( ( 1 << i ) & N ) {
 result ++ ; } } cout << result << endl ; }
+```
+
+```c
+#include <stdio.h>
+void count_setbit ( int N ) {
+int result = 0 ;
+for ( int i = 0 ; i < 32 ; i ++ ) {
+if ( ( 1 << i ) & N ) {
+result ++ ; } } printf ( " % d STRNEWLINE " , result ) ; }
 ```
