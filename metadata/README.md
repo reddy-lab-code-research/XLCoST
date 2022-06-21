@@ -13,6 +13,6 @@ XLCoST_data
 
 
 * Details about **Code Search** data files can be found **[here](https://github.com/reddy-lab-code-research/XLCoST/tree/main/metadata/codesearch#code-search)**
-* Details about **Translation** data files can be found **[here](https://github.com/reddy-lab-code-research/XLCoST/blob/main/metadata/translation/README.md#translation)**
+* Details about **Translation** data files can be found **[here](https://github.com/reddy-lab-code-research/XLCoST/tree/main/metadata/translation#code-translation)**
 * Details about **Summarization** data files can be found **[here](https://github.com/reddy-lab-code-research/XLCoST/tree/main/metadata/summarization#code-summarization)**
-* Details about **Synthesis** data files can be found **[here](https://github.com/reddy-lab-code-research/XLCoST/tree/main/metadata/codesearch#code-search)**
+* Details about **Synthesis** data files can be found **[here](https://github.com/reddy-lab-code-research/XLCoST/tree/main/metadata/synthesis#code-synthesis)**
