@@ -15,18 +15,12 @@ XLCoST_data
 │   ├── C-Javascript
 │   ├── C-PHP
 │   ├── C-Python
-│   ├── Java-C
-│   ├── Java-C#
-│   ├── Java-C++
-│   ├── Java-Javascript
-│   ├── Java-PHP
-│   ├── Java-Python
-│   ├── Javascript-C#
-│   ├── Javascript-PHP
-│   ├── PHP-C#
-│   ├── Python-C#
-│   ├── Python-Javascript
-│   └── Python-PHP
+|   .
+|   .
+|   .
+|   .
+|   21 directories
+|   
 ├── pair_data_tok_full
     ├── C++-C
     ├── C++-C#
@@ -60,4 +54,13 @@ pair_data_tok_1
     ├── val-C++-C-tok.cpp
     ├── val-C++-map.jsonl
     └── val-C-map.jsonl
+```
+
+```cpp
+#include <bits/stdc++.h> NEW_LINE using namespace std ;
+void count_setbit ( int N ) {
+int result = 0 ;
+for ( int i = 0 ; i < 32 ; i ++ ) {
+if ( ( 1 << i ) & N ) {
+result ++ ; } } cout << result << endl ; }
 ```
