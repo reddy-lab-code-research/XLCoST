@@ -4,10 +4,10 @@ source common_run_utils.sh
 PATH_DATA_PREFIX=${ROOT_PATH}g4g/XLCoST_data/
 
 
-# bash run_translation.sh 2 java desc program graphcodebert train
-# bash run_translation.sh 2 desc python program graphcodebert eval
-# bash run_translation.sh 2 comment python snippet graphcodebert train
-# bash run_translation.sh 2 java comment snippet graphcodebert eval
+# bash run_NL_PL.sh 2 java desc program graphcodebert train
+# bash run_NL_PL.sh 2 desc python program graphcodebert eval
+# bash run_NL_PL.sh 2 comment python snippet graphcodebert train
+# bash run_NL_PL.sh 2 java comment snippet graphcodebert eval
 GPU=${1:-0};
 SOURCE=${2:-java};
 TARGET=${3:-python};
