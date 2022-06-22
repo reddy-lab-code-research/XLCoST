@@ -8,8 +8,8 @@ XLCoST_data
 ├── pair_data_tok_1 (180.5 MB) <b>(Snippet Translation)</b>
 ├── pair_data_tok_1_comment (73.6 MB) <b>(Snippet Synthesis and Summarization)</b>
 ├── pair_data_tok_full (158.6 MB) <b>(Program Translation)</b>
-├── pair_data_tok_full_desc (42.8 MB) <b>(Program Synthesis)</b>
-└── pair_data_tok_full_desc_comment (65.4 MB) <b>(Program Summarization)</b></code></pre>
+├── pair_data_tok_full_desc (42.8 MB) <b>(Program Summarization)</b>
+└── pair_data_tok_full_desc_comment (65.4 MB) <b>(Program Synthesis)</b></code></pre>
 
 
 * Details about **Code Search** data files can be found **[here](https://github.com/reddy-lab-code-research/XLCoST/tree/main/metadata/codesearch#code-search)**
