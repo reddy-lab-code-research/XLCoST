@@ -24,7 +24,7 @@ pair_data_tok_full_desc_comment (Program Summarization)
 └── Python-desc
 ```
 
-Each pair directory contains the ```train``` ```test``` and ```val``` splits of the code data and the corresponding comment or `comment-description` concatenated. The ```map.jsonl``` files contain a line by line mapping of the ```problem_id``` to the lines in the corresponding code files and comment/description files. 
+Below we see what the data looks like for one of the languages at the program level. Each pair directory contains the ```train``` ```test``` and ```val``` splits of the code data and the corresponding comment or `comment-description` concatenation. The ```map.jsonl``` files contain a line by line mapping of the ```problem_id``` to the lines in the corresponding code files and comment/description files. 
 
 ```
 pair_data_tok_full_desc_comment
@@ -45,6 +45,8 @@ pair_data_tok_full_desc_comment
 
 ### Data Samples
 
+Displayed below are some sample data for program level summarization. Each line is a full program.
+
 `train-Python-desc-tok.py` file:
 
 ```py
@@ -64,6 +66,8 @@ import math NEW_LINE def check ( A , B ) : NEW_LINE INDENT if ( A == B ) : NEW_L
 10023
 10033
 ```
+
+The description files for program level data contain the program description concatenated with all the comments in the program. These are separated by the `;` character.
 
 `train-Python-desc-tok.txt` file:
 ```
