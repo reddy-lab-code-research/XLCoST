@@ -1,7 +1,7 @@
 ## Code Synthesis
 
 
-The file tree below shows the first level directory structures for folders containing Snippet Synthesis(`pair_data_tok_1_comment`) and Program Synthesis(`pair_data_tok_full_desc`) data respectively. Each folder contains the 7 code languages paired with their corresponding natural language comments or descriptions. 
+The file tree below shows the first level directory structures for folders containing Snippet Synthesis(`pair_data_tok_1_comment`) and Program Synthesis(`pair_data_tok_full_desc_comment`) data respectively. Each folder contains the 7 code languages paired with their corresponding natural language comments or descriptions and comments conctenated for the program level task. 
 
 ```
 pair_data_tok_1_comment (Snippet Synthesis)
@@ -24,7 +24,7 @@ pair_data_tok_full_desc_comment (Program Synthesis)
 ```
 
 
-Below we see what the data looks like for one of the languages at the program level. Each pair directory contains the ```train``` ```test``` and ```val``` splits of the code data and the corresponding comment or `comment-description` concatenation. The ```map.jsonl``` files contain a line by line mapping of the ```problem_id``` to the lines in the corresponding code files and comment/description files. 
+Below we see what the data looks like for one of the languages at the program level. Each pair directory contains the ```train``` ```test``` and ```val``` splits of the code data and the corresponding comment or `description-comment` concatenation. The ```map.jsonl``` files contain a line by line mapping of the ```problem_id``` to the lines in the corresponding code files and comment/description files. 
 
 ```
 pair_data_tok_full_desc_comment
@@ -45,7 +45,7 @@ pair_data_tok_full_desc_comment
 
 ### Data Samples
 
-Displayed below are some sample data for program level summarization. Each line is a full program.
+Displayed below are some sample data for program level synthesis. Each line is a full program.
 
 `train-Python-desc-tok.py` file:
 
