@@ -15,7 +15,7 @@ code2code_search
 │   ├── Javascript
 │   ├── PHP
 │   ├── Python
-│   └── collective_data
+│ 
 └── snippet_level
     ├── C
     ├── C#
@@ -24,7 +24,7 @@ code2code_search
     ├── Javascript
     ├── PHP
     ├── Python
-    └── collective_data
+
     
 nl2code_search
 ├── program_level
